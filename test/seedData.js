@@ -5,7 +5,7 @@ const Chance = require('chance');
 const chance = new Chance();
 
 const TOTAL_USERS = 5;
-const TOTAL_TWEETS = 100;
+const TOTAL_TWEETS = 10;
 
 module.exports = () => {  
   return Promise.all(
